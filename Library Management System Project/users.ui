@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>users</class>
+ <widget class="QDialog" name="users">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1111</width>
+    <height>730</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Users</string>
+  </property>
+  <widget class="QTableWidget" name="tableUsers">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>69</y>
+     <width>1111</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Photo</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>First Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Last Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Librarian Code</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>National Code</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Birth Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Phone</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>City</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Street</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Alley</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Postal Code</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLineEdit" name="lastNameTxt">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>361</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>search by Last name:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="userEditBtn">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>20</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Edit a User</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/2 (4).png</normaloff>images/2 (4).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="userDeleteBtn">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>20</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Delete a User</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>images/2 (3).png</normaloff>images/2 (3).png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
